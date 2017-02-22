@@ -14,5 +14,6 @@ error-chain = "0.9"
 serde_json = "0.9"
 serde_derive = "0.9"
 serde = "0.9"
-ring = "0.6"
+ring = { version = "0.7", features = ["rsa_signing", "dev_urandom_fallback"] }
 base64 = "0.4"
+untrusted = "0.3"
